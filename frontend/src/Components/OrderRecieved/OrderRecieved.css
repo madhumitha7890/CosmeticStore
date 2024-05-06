@@ -1,0 +1,18 @@
+.order-recieved-text
+{
+    color: green;
+    animation: fadeIn 3s;
+}
+
+
+.order-recieving button
+{
+    margin-top: 40px;
+    border: none;
+    padding: 12px 15px;
+    border-radius: 5px;
+    font-family: Asap;
+    background-color: cornflowerblue;
+    cursor: pointer;
+    color:black;
+}

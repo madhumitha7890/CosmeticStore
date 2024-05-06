@@ -1,0 +1,197 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "ThunderCLientRequests",
+    "collectionId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+    "dateExported": "2024-05-05T16:46:46.926Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "1169476d-f146-4c72-9cff-1cfde4f7ecec",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "Getting all cosmetics list",
+            "url": "http://localhost:4999/api/cosmetic/list",
+            "method": "GET",
+            "sortNum": 20000,
+            "created": "2024-05-05T16:16:32.868Z",
+            "modified": "2024-05-05T16:16:47.552Z",
+            "headers": []
+        },
+        {
+            "_id": "75c421aa-36cf-4aae-be15-640a09b0649d",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "Removing one cosmetic from cosmetics list using id",
+            "url": "http://localhost:4999/api/cart/remove",
+            "method": "POST",
+            "sortNum": 30000,
+            "created": "2024-05-05T16:17:58.606Z",
+            "modified": "2024-05-05T16:18:52.874Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzRkODJlMDZmZjdiYTJjY2NjZTc3MSIsImlhdCI6MTcxNDg0NDAyNH0.rjsWsLb70Uq0G5SoqiYVY3GZgFINu23FCs1MOgw5xQw"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"itemId\":\"663649ad33c50dae904695fc\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "93a9bd00-a11b-4a05-b458-16958c5fa315",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "Adding Cosmetic to cart",
+            "url": "http://localhost:4999/api/cart/add",
+            "method": "POST",
+            "sortNum": 50000,
+            "created": "2024-05-05T16:40:50.467Z",
+            "modified": "2024-05-05T16:40:50.467Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzY3ZDBmMDVmZmE3MDdiMTBlM2FjNCIsImlhdCI6MTcxNDg0Njk5Mn0.jL6dceM-I-tK8NorYzNcZxk_a24OS0RZSF435UGZ4-g"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"itemId\":\"6636490c33c50dae904695fa\"}",
+                "form": []
+            }
+        },
+        {
+            "_id": "bdb5f248-fb2c-4b2a-8071-937c4286628e",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "UserLogin request",
+            "url": "http://localhost:4999/api/user/login",
+            "method": "POST",
+            "sortNum": 60000,
+            "created": "2024-05-05T16:41:25.470Z",
+            "modified": "2024-05-05T16:41:25.470Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"email\":\"hattimadhuri@gmail.com\",\n  \"password\":\"madhuri28\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "cc059acd-e0d1-4156-81c6-a443c2b94c98",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "User Registration",
+            "url": "http://localhost:4999/api/user/register",
+            "method": "POST",
+            "sortNum": 70000,
+            "created": "2024-05-05T16:41:54.129Z",
+            "modified": "2024-05-05T16:41:54.129Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"name\":\"madhumitha\",\n  \"email\":\"hattimadhumitha@gmail.com\",\n  \"password\":\"madhumitha24\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "72ebf740-f2b8-4054-b424-a29d8abfb536",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "Getting Orders Placedby user",
+            "url": "http://localhost:4999/api/order/userorders",
+            "method": "POST",
+            "sortNum": 80000,
+            "created": "2024-05-05T16:42:33.536Z",
+            "modified": "2024-05-05T16:42:33.536Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzRkODJlMDZmZjdiYTJjY2NjZTc3MSIsImlhdCI6MTcxNDg3OTkwOH0.PV-nK_S3VzXKa6keey6hoZJRievMJDJdveNlNRKvwNI"
+                }
+            ]
+        },
+        {
+            "_id": "ea01d297-50c5-4553-9b41-bf71b35152a6",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "Adding cosmetic to cosmeticList",
+            "url": "http://localhost:4999/api/cosmetic/add",
+            "method": "POST",
+            "sortNum": 90000,
+            "created": "2024-05-05T16:43:59.330Z",
+            "modified": "2024-05-05T16:43:59.330Z",
+            "headers": [],
+            "body": {
+                "type": "formdata",
+                "raw": "",
+                "form": [
+                    {
+                        "name": "description",
+                        "value": "Natural Glow"
+                    },
+                    {
+                        "name": "price",
+                        "value": "440"
+                    },
+                    {
+                        "name": "category",
+                        "value": "Eyeshadow palettes"
+                    },
+                    {
+                        "name": "name",
+                        "value": "Maybelline EyeshadoW Palette"
+                    }
+                ],
+                "files": [
+                    {
+                        "name": "image",
+                        "value": "c:\\CosmeticStore\\frontend\\cosmeticstoreapp\\src\\images\\maybelline_eyeshadow.jpeg"
+                    }
+                ]
+            }
+        },
+        {
+            "_id": "99159bf1-0e4c-4d51-b119-cef31386bc5b",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "Removing cosmetic from cart",
+            "url": "http://localhost:4999/api/cart/remove",
+            "method": "POST",
+            "sortNum": 100000,
+            "created": "2024-05-05T16:44:41.936Z",
+            "modified": "2024-05-05T16:44:41.936Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzRkODJlMDZmZjdiYTJjY2NjZTc3MSIsImlhdCI6MTcxNDg0NDAyNH0.rjsWsLb70Uq0G5SoqiYVY3GZgFINu23FCs1MOgw5xQw"
+                }
+            ],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"itemId\":\"663649ad33c50dae904695fc\"\n}",
+                "form": []
+            }
+        },
+        {
+            "_id": "34433eeb-1aa3-4be8-8776-adaa59cce987",
+            "colId": "2094137d-97a4-45d4-8905-5cfc063d439a",
+            "containerId": "",
+            "name": "Getting all cosmtics from usercart",
+            "url": "http://localhost:4999/api/cart/get",
+            "method": "POST",
+            "sortNum": 110000,
+            "created": "2024-05-05T16:45:26.198Z",
+            "modified": "2024-05-05T16:45:26.198Z",
+            "headers": [
+                {
+                    "name": "token",
+                    "value": "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzY3ZDBmMDVmZmE3MDdiMTBlM2FjNCIsImlhdCI6MTcxNDg3OTQwNH0.xJsWj3viut9k_MfaZZDP5s-KaUflcED94El76ulZtcY"
+                }
+            ]
+        }
+    ],
+    "ref": "mnvPCYOAoYzEkapEiDvqq-REZUtAkCFaZ2UKtziZ57xVTQ7E8XJTrfUMiQCUUNpf-8gjD-LpycquuKq_K9BRJQ"
+}

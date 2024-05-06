@@ -1,0 +1,67 @@
+ //used thunderclient to add all cosmetics in the form of 'form data' with image
+ ### to add new cosmetic
+POST http://localhost:4999/api/cosmetic/add
+Content-Type: multipart/form-data
+
+name="L'oreal Paris True Match"
+price=300
+description=High coverage
+category=foundation
+image=@/
+
+### to get all cosmetics
+GET http://localhost:4999/api/cosmetic/add
+
+###to remove one cosmetic
+POST http://localhost:4999/api/cosmetic/remove
+Content-Type:  application/json
+
+{
+     "id":"66349efd480ba668bba30de2"
+}
+
+###REGISTER
+POST http://localhost:4999/api/user/register
+Content-Type:  application/json
+
+{
+  "name":"madhumitha",
+ "email":"hattimadhumitha@gmail.com",
+ "password":"madhumitha24"
+}
+###LOGIN
+POST http://localhost:4999/api/user/login
+Content-Type:  application/json
+
+{
+  "email":"hattimadhuri@gmail.com",
+  "password":"madhuri28"
+  }
+###adding cosmetic into cart
+POST http://localhost:4999/api/cart/add
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzY3ZDBmMDVmZmE3MDdiMTBlM2FjNCIsImlhdCI6MTcxNDg3OTQwNH0.xJsWj3viut9k_MfaZZDP5s-KaUflcED94El76ulZtcY
+
+{
+  "itemId":"6636490c33c50dae904695fa"
+  
+}
+
+###remove cosmetic from cart
+POST http://localhost:4999/api/cart/add
+Content-Type: application/json
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzY3ZDBmMDVmZmE3MDdiMTBlM2FjNCIsImlhdCI6MTcxNDg0Njk5Mn0.jL6dceM-I-tK8NorYzNcZxk_a24OS0RZSF435UGZ4-g
+
+{
+   "itemId":"663649ad33c50dae904695fc"
+  
+ }
+###get cosmetics from cart
+POST http://localhost:4999/api/cart/get
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzY3ZDBmMDVmZmE3MDdiMTBlM2FjNCIsImlhdCI6MTcxNDg3OTQwNH0.xJsWj3viut9k_MfaZZDP5s-KaUflcED94El76ulZtcY
+
+###orders placed by a user
+POST http://localhost:4999/api/order/userorders
+Authorization: Bearer eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6IjY2MzRkODJlMDZmZjdiYTJjY2NjZTc3MSIsImlhdCI6MTcxNDg3OTkwOH0.PV-nK_S3VzXKa6keey6hoZJRievMJDJdveNlNRKvwNI
+
+//refer ThunderClientRequests Folder for request and their responses

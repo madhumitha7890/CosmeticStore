@@ -1,0 +1,70 @@
+.cosmetics-item
+{
+    width:278px;
+    margin:auto;
+    border-radius: 15px;
+    box-shadow: 0px 0px 10px black;
+    transition: 0.5s ;
+    animation: fadeIn 2s;
+    height:400px;
+    margin-bottom: 20px;
+    background-color: white;
+    /* margin-left: 50px;
+    margin-right: 50px; */
+}
+.cosmetics-item-image
+{
+    width:278px;
+    height:250px;
+    border-radius: 15px 15px 0px 0px;
+
+}
+.cosmetics-item-info
+{
+    margin-top: 20px;
+    padding: 20px;
+    font-size: 20px;
+    font-family: Asap;
+}
+.cosmetics-item-img-container
+{
+    position: relative;
+}
+.cosmetics-item-img-container .add
+{
+    width:35px;
+    position: absolute;
+    bottom: 15px;
+    right:15px;
+    cursor:pointer;
+    border-bottom: 50%;
+}
+.cosmetic-item-counter
+{
+    /* width: 20px;  */
+    position: absolute;
+    right:15px;
+    top:250px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+    border-radius: 50px;
+    background-color: white;
+    
+}
+.icons
+{
+    width: 20px;
+}
+.add
+{
+    width: 10px;
+    height:30px;
+    top:230px;
+}
+.add-text
+{
+    margin-left: 215px;
+    margin-top: 8px;
+}

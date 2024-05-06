@@ -1,0 +1,22 @@
+.cosmetics-display
+{
+    margin-top: 30px;
+
+}
+.cosmetics-display h2
+{
+    font-size: max(2vw,24px);
+    font-weight: 600;
+
+}
+.cosmetics-display-list
+{
+    display: grid;
+    grid-template-columns: repeat(auto-fill,minmax(240px,1fr));
+    margin-top: 30px;
+    gap:30px;
+    row-gap: 50px;
+}
+.cosmetics-display-list .cosmetics-item-image {
+    width: 200px; /* Adjust the width as needed */
+}

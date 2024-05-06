@@ -1,0 +1,96 @@
+.cart-content
+{
+    min-height: 400px;
+    margin-top: 100px;
+}
+.cart-items-title
+{
+    display: grid;
+    grid-template-columns: 1fr 1.5fr 1fr 1fr 1fr 1fr;
+    color: grey;
+    font-size:max(1vw,12px) ;
+
+}
+.cart-items-item
+{
+    margin:10px 0px;
+    color:black;
+
+}
+.cart-items-item img
+{
+    width: 50px;
+    height:50px;
+    margin-left: 95px;
+}
+.every-product-line
+{
+    margin-left: 75px;
+    margin-right:75px;
+    height: 1px;
+    background-color: #e2e2e2;
+    border: none;
+}
+.cross
+{
+    cursor: pointer;
+}
+.cart-bottom
+{
+    margin-top: 80px;
+    text-align: left;
+
+    justify-content: space-between;
+    gap:max(12vw,20px);
+}
+.card-total
+{
+
+    align-items: left;
+    display: flex;
+    flex-direction: column;
+    gap:20px
+}
+.card-total-details
+{
+    
+    display: flex;
+    justify-content: space-between;
+    color: #555;
+}
+.card-total hr
+{
+    margin: 10px 0px;
+}
+.card-total button
+{
+    border: none;
+    background-color: green;
+    color: white;
+    padding: 12px 0px;
+    border-radius: 4px;
+    cursor: pointer;
+    width:180px;
+    margin-left : 45px;
+}
+.cart-total-details p{
+    text-align: left;
+    margin-left: 50px;
+}
+.amount1
+{
+    margin-left: 100px;
+}
+.amount2
+{
+    margin-left: 70px;
+}
+.amount3
+{
+    margin-left: 122px;
+}
+.card-total h2{
+    text-align: left;
+    margin-left: 50px;
+    margin-top: 50px;
+}

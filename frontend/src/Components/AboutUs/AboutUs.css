@@ -1,0 +1,30 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,100..900&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap'); */
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,100..900&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@1,300..800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@1,100..900&family=Dancing+Script:wght@400..700&family=Dosis:wght@200..800&family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Open+Sans:ital,wght@1,300..800&display=swap');
+.aboutus
+{
+    background-image: url('../../images/product8.jpeg');
+    /* min-height: 900px;
+    background-size: 1500px 500px; */
+    background-size: 100% 100%;
+    min-height: 800px;
+    background-repeat: no-repeat;
+    font-family: Dancing Script;
+    font-size: 20px;
+}
+.aboutus-content 
+{
+    max-width: 700px;
+    font-family: EB Garamond;
+    transition: 2s;
+    transition: 0.5s ;
+    animation: fadeIn 2s;
+    text-align: left;
+    margin-left: 20px;
+    /* text-align: left;
+    margin-left: 20px; */
+}
+.aboutus-content h3{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-top: 20px;
+}

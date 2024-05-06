@@ -1,0 +1,90 @@
+.navlist{
+    list-style-type: none;
+    display: flex;
+    font-size: 25px;
+    float: right;
+    text-decoration: none;
+    font-family: Asap;
+    gap:30px;
+}
+.navmain{
+    height:90px;
+    display: flex;
+    justify-content: space-between; 
+    padding:10px 10px;
+}
+.logo1
+{
+    width:100px;
+    height:80px;
+    margin-right: 700px;
+    margin-left: 80px;
+
+}
+.nav-link
+{
+    color: black;
+    text-decoration: none;
+}
+.nav-link:hover
+{
+    color: #7b9a6d;
+}
+.cart
+{
+    width:30px;
+    margin-left: 20px;
+    height: 30px;
+}
+.cart:hover {
+    transform: scale(1.1); 
+}
+ .navbar-profile
+{
+    position: relative;
+}
+.nav-profile-dropdown
+{
+    position: absolute;
+    display: none;
+    
+}
+ .nav-profile-dropdown 
+{
+    display: flex;
+    list-style-type: none;
+    justify-content: space-around;
+    align-items: center;
+} 
+/* .navbar-profile:hover .nav-profile-dropdown
+{
+    display: flex;
+    flex-direction: column;
+    gap:10px;
+
+} */
+.icons
+{
+    
+    width:20px;
+    margin-left: 20px;
+    height:20px;
+}
+.icons:hover
+{
+    width:25px;
+    height:25px;
+    cursor: pointer;
+}
+.profile-texts
+{
+    font-size: 15px;
+    margin-left: 30px;
+    font-family: Asap;
+}
+/* .icons-1
+{
+    width:20px;
+    margin-left: 10px;
+    height:20px;
+} */
